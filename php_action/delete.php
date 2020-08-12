@@ -13,7 +13,7 @@ if(isset($_POST['btn-deletar'])):
     $sql = "DELETE FROM estoque WHERE id = '$id'";
 
         if(mysqli_query($connect, $sql)):
-            $_SESSION['mensagem'] = "Produto Deletado Com Sucesso!";
+            $_SESSION['mensagem'] = "Produto Vendido Com Sucesso!";
               header('Location: ../index.php');
         else:
             $_SESSION['mensagem'] = "Erro ao Deletar";

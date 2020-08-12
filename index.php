@@ -17,7 +17,7 @@ include_once 'php_action/db_connect.php';
                 <thead>
                     <tr>
                         <th>Categoria:</th>
-                        <th>Modelo:</th>
+                        <th>Produto:</th>
                         <th>Quantidades:</th>
                         <th>Valor:</th>
                     </tr>
@@ -68,8 +68,8 @@ include_once 'php_action/db_connect.php';
                             <tr>
                                 <td>-</td>
                                 <td>-</td>
-                                <td>-</td>
-                                <td>-</td>
+                                <td></td>
+                                <td></td>
                             </tr>
 
 
